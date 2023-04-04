@@ -1,11 +1,10 @@
-﻿namespace retrospectives_api.Models;
+﻿namespace retrospectives_api.DTOs;
 
-public class Retrospective
+public class RetrospectiveDTO
 {
     public string Name { get; set; }
     public string? Summary { get; set; }
     public DateTime? Date { get; set; }
     public List<string> Participants { get; set; }
-    public ICollection<FeedbackItem>? FeedbackItems { get; set; }
-    
+    public ICollection<FeedbackItemDTO>? FeedbackItems { get; set; }
 }

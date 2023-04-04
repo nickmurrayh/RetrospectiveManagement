@@ -22,4 +22,8 @@
         </PackageReference>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\retrospectives-api\retrospectives-api.csproj" />
+    </ItemGroup>
+
 </Project>

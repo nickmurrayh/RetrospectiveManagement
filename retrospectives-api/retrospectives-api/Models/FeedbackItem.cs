@@ -6,7 +6,7 @@ public class FeedbackItem
     public string CreatedBy { get; set; }
     public string? Body { get; set; }
     public FeedbackType Type { get; set; }
-    public virtual Retrospective Retrospective { get; set; }
+    public Retrospective Retrospective { get; set; }
     public string? RetrospectiveName { get; set; }
 }
 

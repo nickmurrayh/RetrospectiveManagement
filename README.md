@@ -17,12 +17,13 @@
 
 # Getting started:
 
-- cd retrospectives-api
+- cd retrospectives-api/retrospectives-api
 - dotnet restore
 - dotnet build
 - dotnet run
 
 - cd web-app
+- npm install
 - npm run serve
 
 - open web browser and navigate to http://localhost:8080
